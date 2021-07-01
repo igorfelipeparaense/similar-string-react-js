@@ -16,7 +16,7 @@ const Corpo = () => {
 		}
 
 	return <div className="fundo">
-				<h2>% Comparação das Strings %</h2>
+				<h2>SIMILAR STRING</h2>
 				<input ref={refvol1} type="text" placeholder="Informe um nome"></input>
 				<input ref={refvol2} type="text" placeholder="Informe outro nome"></input>
 				<button onClick={clicar}>Valor</button>
