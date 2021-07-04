@@ -12,7 +12,11 @@ const Corpo = () => {
 				val2 = refvol2.current.value, // valor2.value;
 				res = similar(val1, val2);
 
-			setResultado(res);
+				if (val1 !== '' && val2 !== '') {
+					setResultado(res);
+				} else {
+					setResultado('Preencha os dois campos!');
+				}
 		}
 
 	return <div className="fundo">
