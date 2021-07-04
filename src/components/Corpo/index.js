@@ -1,5 +1,5 @@
 import React, {useRef, useState} from 'react';
-import {similar} from './Compara';
+import {similar} from '../Compara/index';
 
 const Corpo = () => {
 
@@ -17,9 +17,9 @@ const Corpo = () => {
 
 	return <div className="fundo">
 				<h2>SIMILAR STRING</h2>
-				<input ref={refvol1} type="text" placeholder="Informe um nome"></input>
-				<input ref={refvol2} type="text" placeholder="Informe outro nome"></input>
-				<button onClick={clicar}>Valor</button>
+				<input ref={refvol1} type="text" placeholder="Digite um nome"></input>
+				<input ref={refvol2} type="text" placeholder="Digite outro nome"></input>
+				<button onClick={clicar}>Resultado</button>
 				<div id="result">{resultado}</div>
 			</div>
 	

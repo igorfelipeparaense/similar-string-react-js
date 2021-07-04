@@ -10,7 +10,7 @@ const similar = (val1,val2)=> {
 
 	let weight = equivalency / maxLength;
 
-	return (weight * 100) + "%";
+	return (weight * 100) + "% de igualdade!";
 }
 
 export {
