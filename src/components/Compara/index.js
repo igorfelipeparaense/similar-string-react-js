@@ -1,4 +1,4 @@
-const similar = (nome1,nome2)=> {
+const similar = (nome1,nome2) => {
 	
 	let equivalency = 0;
 	const minLength = (nome1.length > nome2.length) ? nome2.length : nome1.length,

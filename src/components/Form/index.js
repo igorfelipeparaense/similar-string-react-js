@@ -6,11 +6,11 @@ const Form = ({setNome1, setNome2}) => {
 		<div>
 			<div className="input">
 				<label>Primeiro nome:</label>
-				<input onChange={(e) => setNome1(e.target.value)} type="text" placeholder="Digite um nome"></input>
+				<input onChange={(e) => setNome1(e.target.value)} type="text"></input>
 			</div>
 			<div className="input">
 				<label>Segundo nome:</label>
-				<input onChange={(e) => setNome2(e.target.value)} type="text" placeholder="Digite um nome"></input>
+				<input onChange={(e) => setNome2(e.target.value)} type="text"></input>
 			</div>
 		</div>
 	)
