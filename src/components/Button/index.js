@@ -3,7 +3,7 @@ import './index.css';
 
 const Button = (props) => {
 	return(
-		<button onClick={props.clickBtn}>Resultado</button>
+		<button onClick={props.clickBtn}>{props.textBtn}</button>
 	);
 }
 export default Button;

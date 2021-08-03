@@ -1,22 +1,31 @@
-.input {
+.form {
   display: flex;
+  flex-direction: column;
   width: 300px;
-  height: 50px;
-  justify-content: space-between;
+  height: 200px;
+  padding: 10px;
+  justify-content: space-around;
   align-items: center;
-  margin: 24px;
+  border-radius: 20px;
+  background-color: #347480;
 }
-.input input {
-  width: 200px;
-  height: 50px;
-  border-radius: 5px;
+.input {
+  width: 90%;
+  height: 40px;
+  border-radius: 50px;
   border:none;
   outline: 0;
   font: bold 1.5rem serif;
-  text-align: center;
+	background-color: #f6f6f6;
+  padding-left: 10px;
 }
-  
-.input label {
+.label {
   font: bold 1.5rem serif;
   padding-right: 10px;
+}
+.errorMsg {
+  font-size: 14px;
+  font-Weight: bold;
+  color: red;
+  margin-bottom: 3;
 }

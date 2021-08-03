@@ -1,11 +1,12 @@
-const similar = (nome1,nome2) => {
-	
-	let equivalency = 0;
-	const minLength = (nome1.length > nome2.length) ? nome2.length : nome1.length,
-		  maxLength = (nome1.length < nome2.length) ? nome2.length : nome1.length;
+const similar = (n1, n2) => {
 
-	for(let i = 0; i < minLength; i++) {
-		if(nome1[i] === nome2[i]) { equivalency++; }
+	let equivalency = 0;
+
+	const minLength = (n1 > n2) ? n2 : n1,
+		maxLength = (n1 < n2) ? n2 : n1;
+
+	for (let i = 0; i < minLength; i++) {
+		if (n1[i] === n2[i]) { equivalency++; }
 	}
 
 	let weight = equivalency / maxLength;

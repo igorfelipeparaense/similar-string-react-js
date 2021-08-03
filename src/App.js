@@ -8,17 +8,25 @@ import './App.css';
 
 const App = () => {
 
-    const [nome1, setNome1] = useState(''),
-        [nome2, setNome2] = useState(''),
-    [result, setResult] = useState(false);
+    const [nome1, setNome1] = useState(""),
+        [nome2, setNome2] = useState(""),
+    [result, setResult] = useState(false),
+    [errorMessage, setErrorMessage] = useState(null),
+    [textBtn, setTextBtn] = useState("Comparar");
 
 	const clickBtn = () => {
-        let res = similar(nome1, nome2);
+        let res = similar(nome1?.length, nome2?.length);
 
-		if (nome1 !== '' && nome2 !== '') {
+		if (nome1 !== "" && nome2 !== "") {
 			setResult(res);
+            setNome1("");
+            setNome2("");
+            setTextBtn("Comparar Novamente");
+            setErrorMessage(null);
 		} else {
-			setResult('Preencha os dois campos!');
+			setErrorMessage("campo obrigatório*");
+            setTextBtn("Comparar");
+            setResult(null);
 		}
 	}
 
@@ -27,8 +35,8 @@ const App = () => {
             <header className="App-header">
                 <div className="container">
                     <Title/>
-                    <Form {...{setNome1, setNome2}}/>
-                    <Button clickBtn={clickBtn}/>
+                    <Form {...{nome1, nome2, setNome1, setNome2, errorMessage}}/>
+                    <Button textBtn={textBtn} clickBtn={clickBtn}/>
                     <Result>
                         {result}
                     </Result>
