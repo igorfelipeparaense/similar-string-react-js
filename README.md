@@ -1,10 +1,10 @@
 <h3 align="center">
-  Similar String Vanilla JS
+  Similar String em React JS
 </h3>
 
 ## 💻 Sobre o projeto
 
-Compara a igualdade entre duas Strings feito com JavaScript puro. 
+Compara a igualdade entre duas Strings feito com React JS. 
 
 ## :bulb: Ideia do Projeto
 
