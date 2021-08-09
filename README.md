@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+<h3 align="center">
+  Similar String Vanilla JS
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 💻 Sobre o projeto
 
-## Available Scripts
+Compara a igualdade entre duas Strings feito com JavaScript puro. 
 
-In the project directory, you can run:
+## :bulb: Ideia do Projeto
 
-### `yarn start`
+```bash
+Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+-Simples feito com HTML, CSS e JavaScript Puro nessa versão.
+-Basicamente o usuário informa dois valores de texto.
+-Para que possa ser calculado o percentual de semelhança.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+## 🖼 Screenshot das telas da aplicação 
 
-### `yarn test`
+<div>
+  <img src="https://user-images.githubusercontent.com/83182736/128566429-f699b703-17e1-4a66-8d9c-5ca8a7e1e62c.png" />
+  <img src="https://user-images.githubusercontent.com/83182736/128567695-48dfec04-8138-4cee-98fe-f01e523d7160.png" />
+  <img src="https://user-images.githubusercontent.com/83182736/128567724-99d71ea1-9568-4cff-989b-5e65a9daefc8.png" />
+  <img src="https://user-images.githubusercontent.com/83182736/128567745-da838f4d-6c20-4003-9fae-a743a39bae44.png" />
+</div
+<br/>
+  
+ # 👷 Como rodar
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# Clonar o repositório
+git clone https://github.com/pacotee/similar-string-vanilla-js
 
-### `yarn build`
+# Entrar numa IDE de sua preferência 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Executar o servidor ou usar um puglin que criar um servidor
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+ou em uma porta de sua preferência.
 
-### `yarn eject`
+ ## 🤔 Como contribuir <br/>
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- Faça um fork desse repositório; <br/>
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;<br/>
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`; <br/>
+- Faça push para a sua branch: `git push origin minha-feature`.<br/>
+<br/>
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch. <br/>
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## :mortar_board: Autores
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table align="center">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/pacotee">
+                <img src="https://user-images.githubusercontent.com/83182736/128571620-d38188d7-0a0c-4d80-a1cb-84cc174f76c3.jpeg" width="150px;" alt="Image do Igor Felipe" />
+                <br />
+                <sub><b>Igor Felipe</b></sub>
+            </a>
+        </td>    
+    </tr>
+</table>
+<h4 align="center">
+   Feito com 💜 by  <a href="https://www.linkedin.com/in/igor-felipe-5263b8212/" target="_blank"> Igor Felipe </a>
+</h4>
