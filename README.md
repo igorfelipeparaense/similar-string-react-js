@@ -30,7 +30,7 @@ Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/pacotee/similar-string-vanilla-js
+git clone https://github.com/pacotee/similar-string-react-js
 
 # Entrar numa IDE de sua preferência 
 
