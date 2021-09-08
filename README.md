@@ -11,7 +11,7 @@ Compara a igualdade entre duas Strings feito com React JS.
 ```bash
 Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
--Simples feito com HTML, CSS e JavaScript Puro nessa versão.
+-Simples, feito com React JS nessa versão.
 -Basicamente o usuário informa dois valores de texto.
 -Para que possa ser calculado o percentual de semelhança.
 
