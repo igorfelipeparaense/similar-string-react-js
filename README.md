@@ -30,7 +30,7 @@ Surgiu com a finalidade de voltar a estudar programação e colocar em prática.
 
 ```bash
 # Clonar o repositório
-git clone https://github.com/pacotee/similar-string-react-js
+git clone https://github.com/igorfelipeparaense/similar-string-react-js
 
 # Entrar numa IDE de sua preferência 
 
@@ -56,8 +56,8 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
 <table align="center">
     <tr>
         <td align="center">
-            <a href="https://github.com/pacotee">
-                <img src="https://user-images.githubusercontent.com/83182736/128571620-d38188d7-0a0c-4d80-a1cb-84cc174f76c3.jpeg" width="150px;" alt="Image do Igor Felipe" />
+            <a href="https://github.com/igorfelipeparaense">
+                <img src="https://avatars.githubusercontent.com/u/83182736?s=400&u=4e7e9f34ab638aa2879d9bb94cf161b9f5bd3fe0&v=4" width="150px;" alt="Image do Igor Felipe" />
                 <br />
                 <sub><b>Igor Felipe</b></sub>
             </a>
@@ -65,5 +65,5 @@ Depois que o merge da sua pull request for feito, você pode deletar a sua branc
     </tr>
 </table>
 <h4 align="center">
-   Feito com 💜 by  <a href="https://www.linkedin.com/in/igor-felipe-5263b8212/" target="_blank"> Igor Felipe </a>
+   Feito com 💜 by  <a href="https://www.linkedin.com/in/igorfelipeparaense/" target="_blank"> Igor Felipe </a>
 </h4>
